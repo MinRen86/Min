@@ -1,7 +1,5 @@
 #pragma once
 
-#include <memory>
-
 #include <Min/Core.h>
 #include <spdlog/spdlog.h>
 #include <spdlog/fmt/ostr.h>

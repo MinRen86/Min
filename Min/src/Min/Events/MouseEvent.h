@@ -4,8 +4,6 @@
 #include <Min/Events/Event.h>
 #include <Min/MouseCodes.h>
 
-#include <sstream>
-
 namespace Min {
 
 	class MIN_API MouseMovedEvent : public Event
@@ -48,7 +46,7 @@ namespace Min {
 		}
 
 		EVENT_CLASS_TYPE(MouseScrolled)
-			EVENT_CLASS_CATEGORY(EventCategoryMouse | EventCategoryInput)
+		EVENT_CLASS_CATEGORY(EventCategoryMouse | EventCategoryInput)
 	private:
 		float m_XOffset, m_YOffset;
 	};

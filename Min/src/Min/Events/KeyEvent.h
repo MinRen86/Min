@@ -3,8 +3,6 @@
 #include <Min/Events/Event.h>
 #include <Min/KeyCodes.h>
 
-#include <sstream>
-
 namespace Min 
 {
 

@@ -3,8 +3,6 @@
 #include <Min/Core.h>
 #include <Min/Events/Event.h>
 
-#include <sstream>
-
 namespace Min 
 {
 
@@ -36,7 +34,7 @@ namespace Min
 		WindowCloseEvent() = default;
 
 		EVENT_CLASS_TYPE(WindowClose)
-			EVENT_CLASS_CATEGORY(EventCategoryApplication)
+		EVENT_CLASS_CATEGORY(EventCategoryApplication)
 	};
 
 	class MIN_API AppTickEvent : public Event
@@ -45,7 +43,7 @@ namespace Min
 		AppTickEvent() = default;
 
 		EVENT_CLASS_TYPE(AppTick)
-			EVENT_CLASS_CATEGORY(EventCategoryApplication)
+		EVENT_CLASS_CATEGORY(EventCategoryApplication)
 	};
 
 	class MIN_API AppUpdateEvent : public Event
@@ -54,7 +52,7 @@ namespace Min
 		AppUpdateEvent() = default;
 
 		EVENT_CLASS_TYPE(AppUpdate)
-			EVENT_CLASS_CATEGORY(EventCategoryApplication)
+		EVENT_CLASS_CATEGORY(EventCategoryApplication)
 	};
 
 	class MIN_API AppRenderEvent : public Event
@@ -63,6 +61,6 @@ namespace Min
 		AppRenderEvent() = default;
 
 		EVENT_CLASS_TYPE(AppRender)
-			EVENT_CLASS_CATEGORY(EventCategoryApplication)
+		EVENT_CLASS_CATEGORY(EventCategoryApplication)
 	};
 }

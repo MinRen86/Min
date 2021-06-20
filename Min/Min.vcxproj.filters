@@ -31,11 +31,16 @@
     <ClInclude Include="src\Min\Events\MouseEvent.h">
       <Filter>Min\Events</Filter>
     </ClInclude>
+    <ClInclude Include="src\Min\KeyCodes.h">
+      <Filter>Min</Filter>
+    </ClInclude>
     <ClInclude Include="src\Min\Log.h">
       <Filter>Min</Filter>
     </ClInclude>
-    <ClInclude Include="src\Min\KeyCodes.h" />
-    <ClInclude Include="src\Min\MouseCodes.h" />
+    <ClInclude Include="src\Min\MouseCodes.h">
+      <Filter>Min</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mnpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Min\Application.cpp">
@@ -44,5 +49,6 @@
     <ClCompile Include="src\Min\Log.cpp">
       <Filter>Min</Filter>
     </ClCompile>
+    <ClCompile Include="src\mnpch.cpp" />
   </ItemGroup>
 </Project>

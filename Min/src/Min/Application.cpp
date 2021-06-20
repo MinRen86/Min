@@ -1,3 +1,4 @@
+#include <mnpch.h>
 #include <Min/Application.h>
 #include <Min/Events/ApplicationEvent.h>
 #include <Min/Log.h>

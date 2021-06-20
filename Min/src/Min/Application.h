@@ -1,6 +1,7 @@
 #pragma once
 
-#include "Core.h"
+#include <Min/Core.h>
+#include <Min/Events/Event.h>
 
 namespace Min
 {

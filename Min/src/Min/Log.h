@@ -2,8 +2,9 @@
 
 #include <memory>
 
-#include "Core.h"
-#include "spdlog/spdlog.h"
+#include <Min/Core.h>
+#include <spdlog/spdlog.h>
+#include <spdlog/fmt/ostr.h>
 
 namespace Min
 {
